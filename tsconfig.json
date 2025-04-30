@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "allowJs": true, // Разрешает компиляцию .js файлов
+    "jsx": "react", // Используем JSX с React
+    "moduleResolution": "node",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Включает строгий режим TypeScript
+    "noEmit": false // Включите, если хотите генерировать .js файлы
+  },
+  "include": [
+    "src/**/*.ts", // Включает все файлы .ts и .tsx
+    "src/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
