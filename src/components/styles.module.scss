@@ -1,0 +1,139 @@
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inputWrap {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input {
+  padding: 14px 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: #4f46e5;
+    outline: none;
+  }
+}
+
+.error {
+  color: #e11d48;
+  font-size: 14px;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.buttonsWrap {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button {
+  padding: 14px 18px;
+  background-color: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #4338ca;
+  }
+}
+
+.back {
+  padding: 14px 18px;
+  background-color: #fff;
+  color: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sliderWrap {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.loanSumText {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.loanSumSlider {
+  width: 100%;
+  height: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.progressBarWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activeStep {
+  padding: 0.75rem;
+  border-radius: 25%;
+  color: #fff;
+  background-color: #4338ca;
+  font-size: 24px;
+}
+
+.step {
+  padding: 0.75rem;
+  border-radius: 25%;
+  background-color: #d5d5d9;
+  font-size: 24px;
+  color: #fff;
+}
+
+.line {
+  height: 4px;
+  background-color: #d5d5d9;
+  width: -webkit-fill-available;
+  align-self: center;
+}
+
+.activeLine {
+  height: 4px;
+  background-color: #4338ca;
+  width: -webkit-fill-available;
+  align-self: center;
+}
