@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { FormDataType, FormProps } from '../utils/consts';
-import { step3Schema } from '../formScheme';
+import { step3Schema } from '../utils/formScheme';
 import { ToastContainer, toast } from 'react-toastify';
 import classes from './styles.module.scss';
 import axios from 'axios';

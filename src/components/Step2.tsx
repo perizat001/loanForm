@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { useNavigate } from 'react-router-dom';
 import { FormDataType, FormProps } from '../utils/consts';
-import { step2Schema } from '../formScheme';
+import { step2Schema } from '../utils/formScheme';
 import { useCountries } from '../hooks/useCountries';
 import ProgressBar from './ProgressBar';
 import classes from './styles.module.scss';
